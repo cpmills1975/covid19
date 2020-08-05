@@ -1,4 +1,4 @@
-# covid19
+# Retrieve Swindon's Daily Covid-19 Data
 An AWS Lambda function to retrieve a CSV for Swindon's daily data
 
 Main function is in lambda_function.py. The workhorse of the code is in the uk_covid19 module provided by Public Health England. To run this on AWS Lambda,
