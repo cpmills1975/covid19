@@ -3,14 +3,14 @@ from uk_covid19 import Cov19API
 
 swindon = [
     "areaType=ltla",
-	"areaName=swindon"
+    "areaName=swindon"
 ]
 
 cases = {
-	"date":"date",
-	"areaName":"areaName",
-	"newCasesBySpecimenDate":"newCasesBySpecimenDate",
-	"cumCasesBySpecimenDate":"cumCasesBySpecimenDate"
+    "date":"date",
+    "areaName":"areaName",
+    "newCasesBySpecimenDate":"newCasesBySpecimenDate",
+    "cumCasesBySpecimenDate":"cumCasesBySpecimenDate"
 }
 
 def lambda_handler(event, context):
